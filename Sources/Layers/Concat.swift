@@ -16,7 +16,7 @@ open class Concat: NetworkLayer {
     let maxInputTextures = 10 // must match kernel max input textures
 
     public init(axis: LayerSizeAxis, id: String? = nil) {
-        self.axis = axis
+        self.axis = .f
         super.init(id: id)
     }
 
