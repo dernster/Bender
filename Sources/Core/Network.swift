@@ -15,7 +15,7 @@ public class Network {
     public var start: Start
 
     /// All the layers of the network
-    var nodes = [NetworkLayer]()
+    public var nodes = [NetworkLayer]()
 
     /// Responsible for loading the parameters
     public var parameterLoader: ParameterLoader
